@@ -1,0 +1,234 @@
+/* @media screen and (max-width:1000px){
+    .hero-text{
+        width: 50%;
+        margin-top: 5%;
+
+    }
+    .hero-img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    nav {
+        display: block;
+    }
+
+    .nav-links {
+        display: block;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .hero-btns button {
+        margin-top: 10px;
+    }
+
+    .milestone-cards {
+        flex-wrap: wrap;
+    }
+
+    .milestone-card {
+        margin-top: 10px;
+    }
+
+    .testimonial-cards {
+        flex-wrap: wrap;
+    }
+
+    .testimonial-card {
+        width: 45%;
+        margin-top: 10pxs
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer-logo {
+        margin-top: 20px;
+    }
+}
+ */
+
+@media screen and (max-width: 390px) {
+  header {
+    width: 390px;
+    height: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-section {
+    width: 390px;
+    height: auto;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    grid-template-columns: 1fr;
+    gap: 15px;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .hero-img img {
+    width: 350px;
+    height: 354px;
+    /* border: 2px solid black; */
+  }
+  .hero-text-2 {
+    /* border: 2px solid red; */
+    width: 370px;
+    height: 313px;
+    gap: 15px;
+    margin-left: 115px;
+  }
+  .hero-text h5 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .hero-text h1 {
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .hero-text p {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .btns {
+    width: 370px;
+    height: 115px;
+    /* border: 2px solid blue; */
+    margin-left: 115px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .btns button {
+    width: 100%;
+  }
+  .services {
+    width: 390px;
+    height: auto;
+    gap: 20px;
+    border: 2px solid black;
+  }
+  .services-title {
+    width: 370px;
+    height: auto;
+    gap: 15px;
+    text-align: center;
+  }
+  .services-title h4 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .services-title h2 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .services-title p {
+    font-weight: 400;
+    font-size: 20px;
+    width: 375px;
+    height: 85px;
+  }
+  .services-cards {
+    flex-direction: column;
+    gap: 15px;
+    width: 370px;
+    height: auto;
+    align-items: center;
+  }
+  .services-card {
+    width: 370px;
+    height: 366px;
+  }
+  .milestones {
+    width: 390px;
+    height: auto;
+  }
+  .milestones h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 28px;
+  }
+  .milestones h2 {
+    font-weight: 700;
+    font-size: 40px;
+    width: 370px;
+    height: 120px;
+    /* margin: 12px 0 35px; */
+  }
+  .milestone-cards {
+    width: 370px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .Testimonial {
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+  }
+  .from {
+    width: 370px;
+    height: auto;
+  }
+  .from h3 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .from h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .loremm {
+    width: 370px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+  }
+  footer {
+    width: 390px;
+    height: auto;
+    margin-top: 15px;
+  }
+  .fool {
+    width: 370px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .div {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo h1 {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .footer-logo img{
+    margin-left: 120px;
+  }
+  .footer-logo {
+    text-align: center;
+    height: auto;
+    align-items: start;
+    flex-direction: column;
+  }
+  .footer-logo p {
+    font-weight: 400;
+    font-size: 15px;
+    width: 390px;
+    margin-right: 150px;
+  }
+  .footer-contact{
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}

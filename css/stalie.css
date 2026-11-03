@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.satyle{
+
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    background: linear-gradient(
+    90deg,
+    rgba(15, 15, 15, 0.976) 22%,
+    rgb(25, 25, 25) 25%,
+    rgb(80, 80, 80) 71%,
+    rgb(180, 180, 180) 100%
+    )
+}
+body{
+    background: linear-gradient(
+    90deg,
+    rgba(15, 15, 15, 0.976) 22%,
+    rgb(25, 25, 25) 25%,
+    rgb(80, 80, 80) 71%,
+    rgb(180, 180, 180) 100%
+  );
+}
+.Baisal h4{
+    color: rgb(196, 192, 192);
+     margin-left: 15px;
+     margin-right: 250px;
+}
+.Baisal a{
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+.Baisal{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.Baisal button{
+    margin-left: 400px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    background-color: rgba(240, 248, 255, 0.745);
+}
+.Bamsy h1{
+    color: white;
+    font-size: 30px;
+}
+.Bamsy button{
+    background-color: blue;
+    font-size: 25px;
+    margin-left: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(172, 177, 177);
+}
+.Bamsy{
+    display: flex;
+    margin-top: 30px;
+    h3{
+        margin-left: 90px;
+
+        
+    }
+}
+.Bamsy input{
+    width: 500px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.Bosy {
+    a{
+    margin-left: 30px;
+    color: azure; 
+    text-decoration: none;
+
+    }
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.mmm {
+    display: flex;
+    gap: 92px;
+    justify-content: center;
+    padding-top: 40px;
+    p{
+        color: white;
+        font-size: 15px;
+    }
+    h2 {
+        color: white;
+    }
+    button{
+        height: 30px;
+        width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.696);
+    margin-top: 10px;
+    }
+}
+img{
+    border-radius: 20px;
+    
+}
+.img2{
+    padding-left: 110px;
+}
+.sait{
+    display: flex;
+    background-color: rgb(226, 190, 190);
+    padding-top: 100px;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 50px;
+    h2{
+        color:rgb(106, 105, 105);
+        font-size: 20px;
+    }
+    
+
+
+}
+.ooo{
+    
+}
+.pppp{
+    display: flex;
+    
+    img{
+        width: 50px;
+        height: 40px;
+    }
+}
+.www{
+    display: flex;
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}

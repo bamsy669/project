@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .navbar {
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-menu {
+        gap: 12px;
+    }
+
+    .profile-card {
+        padding: 30px;
+    }
+
+    .profile-info h1 {
+        font-size: 28px;
+    }
+
+    .profile-info p {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+
+    .profile-card {
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    .profile-info h1 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .profile-info p {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .tags {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .projects-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects-section h2 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .projects-grid {
+      flex-direction: column;
+      text-align: center;
+        
+    }
+
+    .project-card {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
